@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    color: black;
+}
+header{
+    height: 50px;
+    background-color:  #21bc56;;
+    margin: 0;
+}
+header a{
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header nav{
+    font-weight: 100;
+    float: right;
+}
+header nav ul{
+    display: inline-block;
+}
+header nav ul li{
+    float:left;
+    display: block;
+    padding: 0 10px;
+}
+.wrapper{
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+}
+.wrapper .left{
+    width: 300px;
+    float: left;
+    display: block;
+    height: 900px;
+    background: #f8eded;
+}
+.wrapper .right{
+    width: calc(100% - 300px);
+    float: left;
+    display: block;
+    max-width: calc(100% - 300px);
+}
+.wrapper .right canvas{
+    width: 800;
+    height: 460;
+}
+.mx input{
+    
+    height: 50px;
+    width: 250px;
+    margin: 100px calc(50% - 125px) 0;
+    background-color: #1d211e;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+#loc{
+    font-size: 20px;
+    text-align: center;
+}
