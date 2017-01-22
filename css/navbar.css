@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    height: 50px;
+    background-color: #21bc56;
+    font-size: 20px;
+    font-family: helvetica;
+    line-height: 50px;
+    
+    
+}
+.nav-element{
+    font-weight: bold;
+    width: 100px;
+    height: inherit;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+    color: #fff;
+    display: inline;
+    padding: 0 10px;
+}
+.nav-element : hover{
+    background-color: #006400;
+}
+
+.gpsButton{
+    
+    height: 50px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: calc(50% - 150px);
+    background-color: #21bc56;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
